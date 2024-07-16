@@ -1,7 +1,15 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlight from "./components/Highlight";
+
 function App() {
   return (
     <>
-      <h1>Hellow world!</h1>
+      <main>
+        <Navbar />
+        <Hero />
+        <Highlight />
+      </main>
     </>
   );
 }
