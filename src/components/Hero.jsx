@@ -40,16 +40,11 @@ function Hero() {
 
   return (
     <section className="w-full nav-height bg-black relative">
-      <div className="h-20 w-full flex-center flex-col">
-        {" "}
-        {/* changed some height*/}
+      <div className="h-5/6 w-full flex-center flex-col">
         <p id="hero" className="hero-title">
           Iphone 15 pro
         </p>
-      </div>
-      <div className=" mx-auto md:w-10/12 w-9/12">
-        {" "}
-        {/*centerd this div*/}
+        <div className="md:w-10/12 w-9/12">
         <video
           className="pointer-events-none"
           autoPlay
@@ -60,6 +55,8 @@ function Hero() {
           <source src={videoSrc} type="video/mp4" />
         </video>
       </div>
+      </div>
+      
       <div
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
